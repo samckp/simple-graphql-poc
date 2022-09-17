@@ -1,0 +1,12 @@
+type Query{
+
+    firstMethod : String
+    secondMethod: String
+   ## fullName(fname : String, lname : String ) : String
+    fullName(sampleRequest : SampleRequest) : String
+}
+
+input SampleRequest{
+    fname : String
+    lname : String
+}
