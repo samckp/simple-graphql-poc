@@ -4,7 +4,7 @@ import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 
 @Component
-public class StringQuery implements GraphQLQueryResolver {
+public class SimpleQuery implements GraphQLQueryResolver {
 
     public String firstMethod(){
 
